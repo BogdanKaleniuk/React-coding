@@ -110,6 +110,7 @@ fetchDog = async () => {
   
 };
 
+
     render() {
     const { contacts, filter, showModal } = this.state;
     const newVisibleContacts = this.visibleContacts();
