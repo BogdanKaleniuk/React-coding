@@ -128,7 +128,7 @@ fetchDog = async () => {
     <Select options={options} onChange={this.handleChangeBreed} />
     {dog && (
     <div>
-      <img src={dog.url} width="400" />
+      <img src={dog.url} alt="dog" width="400" />
       <button onClick={this.fetchDog} >Показати інше шображення</button>
       </div>)}
       </div>
